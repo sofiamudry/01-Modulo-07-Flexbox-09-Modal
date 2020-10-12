@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    background-color: #d0cbf3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-weight: 100;
+    padding: 10px;
+    background-color: #1a1833;
+    color: #fff;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-component {
+    color: rgba(255, 255, 255, .4);
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    /* background-color: white; */
+}
+
+.close-link {
+    font-size: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .4);
+}
+
+.close-link:hover {
+    color: #fff;
+}
+
+.title {
+    /* background-color: cornflowerblue; */
+    height: 50px;
+    width: 310px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sub-container {
+    background-color: #282547;
+    width: 280px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container-title {
+    font-size: 8px;
+    color: rgba(255, 255, 255, .8);
+    margin-top: 8px;
+}
+
+.sub-container-stars {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star img {
+    height: 30px;
+}
+
+.subcontainer-evaluation {
+    /* color: rgba(255, 255, 255, .4); */
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.very-bad {
+    font-size: 8px;
+    color: rgba(255, 255, 255, .4);
+}
+
+.excelent {
+    font-size: 8px;
+    color: rgba(255, 255, 255, .4);
+}
+
+.return-button {
+    background: linear-gradient(50deg, #682cb9, #6417ae);
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 9px;
+    color: rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.return-button:hover {
+    background: linear-gradient(50deg, #6417ae, #682cb9);
+    width: 155px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-button {
+    color: rgba(255, 255, 255, .4);
+    height: 20px;
+    font-size: 7px;
+    margin-top: 20px;
+    display: flex;
+}
